@@ -1,0 +1,24 @@
+footer {
+    width: 375px;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid black;
+    background: rgba(255, 255, 255, 0.228);
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+   
+  }
+
+  .footer-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+
+  footer img.active{
+    opacity: 0.5;
+}
