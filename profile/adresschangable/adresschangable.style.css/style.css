@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.body-box {
+    width: 375px;
+    margin: auto;
+}
+
+.header-box {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 100%;
+
+}
+
+.logo {
+    height: 80px;
+    top: 0px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px rgb(5, 5, 50) solid;
+    margin-top: 30px;
+    position: relative;
+}
+
+.img-in-logo {
+    transform: rotate(90deg);
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 22px;
+    left: 5px;
+}
+
+.text-of-logo {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+
+.main-wrapper {
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+}
+
+.main-wrapper-removed{
+    display: none;
+}
+
+.main-box {
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 150px;
+}
+
+.folders {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.two-adresses{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-address {
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    height: 90px;
+    width: 100%;
+    padding: 8px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.in-my-address-text {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.plus {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.popped {
+    display: none;
+}
+
+.main-box-2 {
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+}
+
+
+.popped-opened {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.list-in-main {
+    width: 100%;
+    height: 100px;
+}
+
+.text-in-main {
+    font-size: 20px;
+    font-weight: 200;
+    height: 150px;
+    color: black;
+    width: 100%;
+}
+
+.address {
+    height: 500px;
+    padding: 5px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address-city,
+.address-street,
+.address-house,
+.address-apartment,
+.address-additional-information {
+    height: 90px;
+    width: 80%;
+    font-weight: 700;
+    border-bottom: 3px black solid;
+    border-radius: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 8px;
+}
+
+.text-in-main-smaller {
+    font-size: 10px;
+    height: 150px;
+    color: black;
+    width: 100%;
+}
+
+.buttom-save {
+    width: 100%;
+    height: 80px;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin: auto;
+    font-size: larger;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.undecorated4{
+    text-decoration: none;
+    color: black;
+}
+
+.undecorated10{
+    text-decoration: none;
+    color: black;
+}
+
+
+.popped-closed {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.nav-in-footer {
+    border-top: 2px black solid;
+    height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-footer {
+    width: 24%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}

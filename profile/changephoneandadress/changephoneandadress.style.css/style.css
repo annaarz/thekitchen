@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.body-box {
+    width: 375px;
+    margin: auto;
+}
+
+
+.header-box {
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 100%;
+
+}
+
+.logo {
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px rgb(5, 5, 50) solid;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 50px;
+}
+
+.img-in-logo {
+    transform: rotate(90deg);
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 22px;
+    left: 5px;
+}
+
+.text-of-logo {
+    width: 300px;
+    height: 80px;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.main-box {
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-box{
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.information-text{
+    height: 100px;
+    width: 100%;
+    font-size: x-large;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fields{
+    height: 400px;
+    width: 100%;
+}
+
+.form-for-name .field-for-surname .field-for-patronomic{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-in-field{
+    height: 80px;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: end;
+}
+
+.field-for-filling{
+   height: 50px;
+   padding: 5px;
+   font-size: 40px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.input-for-names{
+    height: 60px;
+    width: 80%;
+    font-weight: 500;
+    border-bottom: 3px black solid;
+    border-radius: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 8px;
+}
+
+.buttom-continue {
+    width: 100%;
+    height: 80px;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin: auto;
+    font-size: larger;
+    font-weight: 300;
+
+}
+
+.undecorated24{
+    text-decoration: none;
+    color: black;
+}
+
+.undecorated25{
+    text-decoration: none;
+    color: black;
+}
+
+
+.list-in-main {
+    width: 100%;
+    height: 100px;
+}
+
+.text-in-main {
+    font-size: 20px;
+    font-weight: 200;
+    height: 150px;
+    color: black;
+    width: 100%;
+}
+
+.field-for-phone-number{
+    height: 30px;
+    font-weight: 500;
+    border-bottom: 3px black solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.text-in-main-smaller{
+    font-size: 10px;
+    height: 150px;
+    color: black;
+    width: 100%;
+}
+
+.nav-in-footer {
+    border-top: 2px black solid;
+    height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-footer {
+    width: 24%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
