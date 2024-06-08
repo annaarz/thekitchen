@@ -1,0 +1,153 @@
+
+
+body{
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: rgb(222, 222, 222);
+}
+
+.container{
+    max-width: 375px;
+margin: auto;
+background-color: #fff;
+overflow: hidden;
+}
+
+
+.info {
+    padding-left: 18px;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.information{
+    margin-bottom: 0;
+}
+
+.weight{
+    margin-right: 20px;
+}
+
+.weight, .grams{
+    display: inline-block;
+}
+
+.shapka h1{
+    background-image: linear-gradient(180deg, #ffffff00 0%, #ffffff);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 18px;
+}
+
+.krest{
+    width: 44px;
+    height: 44px;
+    border: none;
+    background-size: contain;
+    background-image: url(./image/icons.png);
+    background-color: transparent;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+
+
+.shapka {
+    position: relative;
+    background-image: url(./image/Sandwiches-with-fish.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 290px;
+}
+.pris{
+    text-align: right;
+    padding-right: 18px;
+}
+
+.calories {
+    display: flex;
+    width: 375px;
+    border-top: 1px solid #000;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-left: 18px;
+}
+
+
+
+.carbs {
+    padding-left: 33px;
+
+}
+
+.fat {
+    padding-left: 34px;
+
+
+}
+
+.addtoameal {
+
+    padding: 0 18px 10px;
+
+}
+
+.protein {
+    padding-left: 41px;
+}
+
+
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    gap: 34px;    
+}
+.plusminus{
+    display: flex;
+}
+
+.minus{
+    background-color: transparent;
+    border: none;
+    font-size: 44px;
+}
+.num{
+    border: none;
+    font-size: 24px;
+    width: 24px;
+}
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.plus{
+    background-color: transparent;
+    border: none;
+    font-size: 44px;
+}
+
+.addd{
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 17px 30px;
+    background-color: transparent;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.corzina{
+    display: flex;
+    justify-content: space-between;
+}
