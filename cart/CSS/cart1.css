@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: rgb(222, 222, 222);
+}
+
+.container{
+    max-width: 375px;
+margin: auto;
+background-color: #fff;
+}
+
+.top{
+    border-bottom: #000 solid 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    align-items: center;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+   
+}
+
+.cart{
+padding: 20px 30px;
+
+}
+
+
+.menu{
+    border-top: #000 solid 1px;
+    padding: 8px 18px 42px 18px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.45);
+    position: fixed ;
+    bottom: 0;
+    width: 375px;
+    margin: auto;
+
+}
+
+.bob{
+    padding: 17px 120.5px ;
+    border:#000 2px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    margin-bottom: 56px;
+    margin-top: 100px ;
+}
+
+.position{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #000;
+    padding-bottom: 25px;
+    padding-left: 18px;
+   margin-top: 54px;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.coc{
+    display: flex;
+   
+}
+
+.position p{
+    font-weight: 400;
+font-size: 15px;
+color: rgba(0, 0, 0, 0.6);
+}
+
+h2{
+    font-weight: 700;
+font-size: 17px;
+}
+
+.menu img{
+    height: 36px;
+}
+
+.menu div{
+    text-align: center;
+}
+
+.container{
+padding-bottom: 42px;
+}
+
+h3{
+    font-weight: 700;
+font-size: 21px;
+}
+
+.food{
+    width: 114px;
+    height: 114px;
+}
+
+input{
+    border: none;
+    width: 24px;
+    font-weight: 700;
+font-size: 18px;
+letter-spacing: -0.02em;
+}
+
+.trash{
+    height: 44px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.description{
+    text-align: left;
+    padding: 0 0 16px 6px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
+.quantity{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 51px 10px ;
+    justify-content: space-between;
+    
+}
+
+.quantity button{
+    border: none;
+    background-color: #fff;
+}
+
+footer{
+    width: 375px;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid black;
+    background: rgba(255, 255, 255, 0.228);
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+}
+
+footer img.active{
+    opacity: 0.5;
+}
