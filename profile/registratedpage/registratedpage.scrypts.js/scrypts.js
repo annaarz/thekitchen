@@ -13,8 +13,8 @@ if (localStorage.town !== 'undefined') {
     ${localStorage.town}, ${localStorage.avenue}, ${localStorage.building}, ${localStorage.flat} </p>
 </div>
         <div class="in-my-address">
-        <a href="../secondreadyadress/secondreadyadress.html/index.html"><img
-        src="./icons.registratedpage/arrow.png" alt="#"></a>
+        <a href="../../secondreadyadress/secondreadyadress.html/index.html"><img
+        src="../icons.registratedpage/arrow.png" alt="#"></a>
     
         </div>
    </div>
